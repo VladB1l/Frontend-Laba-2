@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(28, 27, 40);
+  color: white;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 30px;
+}
+
+/* ---------------------------------- 1 Завдання ---------------------------------- */
+td {
+  border: 2px solid white;
+  padding: 15px;
+}
+
+table {
+  width: 75%;
+  margin: auto;
+  border-spacing: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* 
+td:nth-child(2){
+    width: 25%;
+} */
+
+tr:nth-child(1) {
+  background-color: #78f38f;
+  color: #6e76d6;
+}
+
+tr:nth-child(2) {
+  background-color: #f5ef57;
+  color: #6e76d6;
+}
+
+tr:nth-child(1):hover {
+  background-color: #f5ef57;
+}
+
+tr:nth-child(2):hover {
+  background-color: #78f38f;
+}
+
+/* ---------------------------------- 2 Завдання ---------------------------------- */
+.cube {
+  background-color: whitesmoke;
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 200px;
+  margin: auto;
+  height: 200px;
+  position: relative;
+}
+
+.circle li {
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.circle li:nth-child(1) {
+  left: 10px;
+  top: 45%;
+}
+.circle li:nth-child(2) {
+  right: 10px;
+  top: 45%;
+}
+.circle li:nth-child(3) {
+  left: 45%;
+  top: 10px;
+}
+.circle li:nth-child(4) {
+  left: 45%;
+  bottom: 10px;
+}
+
+.arrow li {
+  background-color: black;
+  border: 1px solid black;
+  width: 80px;
+  height: 5px;
+  position: absolute;
+}
+
+.arrow li:nth-child(1) {
+    transform: translate(40px, 80px);
+}
+.arrow li:nth-child(2) {
+    transform: translate(20px, 60px) rotate(90deg);
+}
